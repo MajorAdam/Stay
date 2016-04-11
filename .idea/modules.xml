@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:/cygWin/home/meicheng/projects/Stay/Stay.iml" filepath="C:/cygWin/home/meicheng/projects/Stay/Stay.iml" />
-      <module fileurl="file://C:/cygWin/home/meicheng/projects/Stay/app/app.iml" filepath="C:/cygWin/home/meicheng/projects/Stay/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stay.iml" filepath="$PROJECT_DIR$/Stay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
