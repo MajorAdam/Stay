@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.majoradam.stay.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_alignBottom="@+id/datePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker2"
+        android:layout_below="@+id/datePicker"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="154dp" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker3"
+        android:layout_below="@+id/datePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp" />
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        android:layout_below="@+id/datePicker"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="234dp" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker4"
+        android:layout_below="@+id/datePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp" />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView"
+        android:layout_below="@+id/datePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp" />
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView"
+        android:layout_below="@+id/datePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="209dp" />
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New AutoCompleteTextView"
+        android:id="@+id/autoCompleteTextView"
+        android:layout_below="@+id/datePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="184dp" />
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New AutoCompleteTextView"
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_below="@+id/datePicker"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="116dp" />
+
+    <MultiAutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New MultiAutoCompleteTextView"
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_below="@+id/datePicker"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="110dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/datePicker"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="65dp" />
+
+</RelativeLayout>
